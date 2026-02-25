@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Juegos | ISIK</title>
+    <!-- Favicon placeholder -->
+    <link rel="icon" href="https://lucide.dev/favicon.ico">
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-blob blob-1"></div>
+    <div class="background-blob blob-2"></div>
+    <div class="background-blob blob-3"></div>
+
+    <header>
+        <div class="header-content">
+            <h1 class="animate-fade-in">Mi Portal de Juegos</h1>
+            <p class="animate-fade-in-delay">Selecciona una de tus creaciones para empezar a jugar directamente desde tu
+                servidor.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="game-grid" id="gameGrid">
+            <!-- Game Card: Minecraft Luz -->
+            <a href="https://minecraft-luz.web.app/" target="_blank" class="game-card animate-slide-up">
+                <div class="card-glass">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/isaacbarnuevo/Juegos/main/mluz.png"
+                            alt="Minecraft Luz">
+                    </div>
+                    <div class="icon-container primary">
+                        <i data-lucide="pickaxe"></i>
+                    </div>
+                    <h3>Minecraft Luz</h3>
+                    <p>Explora y construye en el mundo de bloques.</p>
+                    <span class="btn-play">Jugar ahora <i data-lucide="external-link"></i></span>
+                </div>
+            </a>
+
+            <!-- Game Card: Math Craft -->
+            <a href="https://educationalmathcraft.web.app/" target="_blank" class="game-card animate-slide-up"
+                style="animation-delay: 0.1s">
+                <div class="card-glass">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/isaacbarnuevo/Juegos/main/math.png"
+                            alt="Math Craft">
+                    </div>
+                    <div class="icon-container secondary">
+                        <i data-lucide="calculator"></i>
+                    </div>
+                    <h3>Math Craft</h3>
+                    <p>Aprende matemáticas de forma divertida.</p>
+                    <span class="btn-play">Jugar ahora <i data-lucide="external-link"></i></span>
+                </div>
+            </a>
+
+            <!-- Game Card: Trivial Educativo -->
+            <a href="https://trivialeducativo.web.app/" target="_blank" class="game-card animate-slide-up"
+                style="animation-delay: 0.2s">
+                <div class="card-glass">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/isaacbarnuevo/Juegos/main/trivial.png"
+                            alt="Trivial Educativo">
+                    </div>
+                    <div class="icon-container accent">
+                        <i data-lucide="help-circle"></i>
+                    </div>
+                    <h3>Trivial Educativo</h3>
+                    <p>Pon a prueba tus conocimientos generales.</p>
+                    <span class="btn-play">Jugar ahora <i data-lucide="external-link"></i></span>
+                </div>
+            </a>
+
+            <!-- Game Card: Tesdan Story -->
+            <a href="https://tesdanstorygame.web.app/" target="_blank" class="game-card animate-slide-up"
+                style="animation-delay: 0.3s">
+                <div class="card-glass">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/isaacbarnuevo/Juegos/main/tesdan.png"
+                            alt="Tesdan Story">
+                    </div>
+                    <div class="icon-container success">
+                        <i data-lucide="book-open"></i>
+                    </div>
+                    <h3>Tesdan Story</h3>
+                    <p>Sumérgete en una historia épica.</p>
+                    <span class="btn-play">Jugar ahora <i data-lucide="external-link"></i></span>
+                </div>
+            </a>
+
+            <!-- Game Card: English Fighter -->
+            <a href="https://english-fighter.web.app/" target="_blank" class="game-card animate-slide-up"
+                style="animation-delay: 0.4s">
+                <div class="card-glass">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/isaacbarnuevo/Juegos/main/english.png"
+                            alt="English Fighter">
+                    </div>
+                    <div class="icon-container warning">
+                        <i data-lucide="languages"></i>
+                    </div>
+                    <h3>English Fighter</h3>
+                    <p>Domina el inglés luchando por la victory.</p>
+                    <span class="btn-play">Jugar ahora <i data-lucide="external-link"></i></span>
+                </div>
+            </a>
+
+            <!-- Game Card: Escondite Game -->
+            <a href="https://escondite-game.web.app/" target="_blank" class="game-card animate-slide-up"
+                style="animation-delay: 0.5s">
+                <div class="card-glass">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/isaacbarnuevo/Juegos/main/escondite.png"
+                            alt="Escondite Game">
+                    </div>
+                    <div class="icon-container info">
+                        <i data-lucide="ghost"></i>
+                    </div>
+                    <h3>Escondite Game</h3>
+                    <p>¿Podrás esconderte de tu perseguidor?</p>
+                    <span class="btn-play">Jugar ahora <i data-lucide="external-link"></i></span>
+                </div>
+            </a>
+
+            <!-- Game Card: Meca Game -->
+            <a href="https://meca-game.web.app/" target="_blank" class="game-card animate-slide-up"
+                style="animation-delay: 0.6s">
+                <div class="card-glass">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/isaacbarnuevo/Juegos/main/meca.png" alt="Meca Game">
+                    </div>
+                    <div class="icon-container purple">
+                        <i data-lucide="keyboard"></i>
+                    </div>
+                    <h3>Meca Game</h3>
+                    <p>Mejora tu velocidad de mecanografía.</p>
+                    <span class="btn-play">Jugar ahora <i data-lucide="external-link"></i></span>
+                </div>
+            </a>
+
+            <!-- Game Card: Piano Hero -->
+            <a href="https://pianohero-game.web.app/" target="_blank" class="game-card animate-slide-up"
+                style="animation-delay: 0.7s">
+                <div class="card-glass">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/isaacbarnuevo/Juegos/main/piano.png"
+                            alt="Piano Hero">
+                    </div>
+                    <div class="icon-container rose">
+                        <i data-lucide="music"></i>
+                    </div>
+                    <h3>Piano Hero</h3>
+                    <p>Sigue el ritmo y conviértete en maestro.</p>
+                    <span class="btn-play">Jugar ahora <i data-lucide="external-link"></i></span>
+                </div>
+            </a>
+
+            <!-- Game Card: Melena Island -->
+            <a href="https://melena-island.web.app/" target="_blank" class="game-card animate-slide-up"
+                style="animation-delay: 0.8s">
+                <div class="card-glass">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/isaacbarnuevo/Juegos/main/melena.png"
+                            alt="Melena Island">
+                    </div>
+                    <div class="icon-container orange">
+                        <i data-lucide="palmtree"></i>
+                    </div>
+                    <h3>Melena Island</h3>
+                    <p>Explora los secretos de la isla tropical.</p>
+                    <span class="btn-play">Jugar ahora <i data-lucide="external-link"></i></span>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portal de Juegos de ISIK</p>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Optional: Intersection Observer for scroll animations
+        const cards = document.querySelectorAll('.game-card');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        cards.forEach(card => observer.observe(card));
+    </script>
+</body>
+
+</html>
